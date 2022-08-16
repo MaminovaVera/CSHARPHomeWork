@@ -1,13 +1,6 @@
 ﻿// Напишите программу, которая принимает на вход 
 // координаты двух точек и находит расстояние между ними в 3D пространстве.
 
-int Prompt(string message)
-{
-    System.Console.Write(message);           // Вывести сообщение
-    string readValue = Console.ReadLine();   // Считывает с консоли строку
-    int result = int.Parse(readValue);       // Преобразует строку в целое число
-    return result;                           // Возвращает результат функции
-}
 
 const int X = 0;
 const int Y = 1;
